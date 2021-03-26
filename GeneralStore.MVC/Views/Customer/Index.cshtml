@@ -1,0 +1,13 @@
+﻿@model IEnumerable<GeneralStore.MVC.Models.Customer>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Check Customers", "Index", "Customer", null, new { @class = "btn btn-primary btn-large" })
+    <br />
+    Our customers are the most important part of what we do. Gotta love em!
+</p>
